@@ -1,0 +1,92 @@
+header{
+    background: #BBBBBB;
+    padding: 20px;
+}
+
+.encabezado{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+nav{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.servicio {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.servicio li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.servicio li:hover{
+    border-color: #c78c19;
+}
+
+.servicio li:hover h2{
+    font-size: 33px;
+}
+
+.servicio li:active{
+    border-color: #088c19;
+}
+
+.servicio h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.servicio-descripcion{
+    font-size: 18px;
+}
+
+.servicio-precio{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+}
