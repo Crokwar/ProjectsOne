@@ -1,0 +1,119 @@
+*{
+  background:#F3F5FC;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+ /* overflow-y: hidden; Desaparece la barra scroll cuando se le disminuye la resolución en el eje Y*/
+  overflow-x: hidden; /*Desaparece la barra scroll cuando se le disminuye la resolución en el eje X*/
+}
+
+header{
+  
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+
+}
+
+section:first-child {
+  width: 60%;
+}
+
+section:last-child {
+  width: 30%;
+}
+
+
+.section-copiar{
+  background: white;
+  border-radius: 20px;
+}
+
+
+.mensaje-ingresado{
+  position: relative;
+  left: 30px;
+  top: 20px;
+  right: 30px;
+  vertical-align: middle;
+  color: #0A3871;
+  height: 400px;
+  width: 90%;
+  border: none;
+  text-transform: lowercase;
+  resize: none;
+}
+
+.mensaje-ingresado:focus {
+  outline: none;
+}
+
+.mensaje-encriptado{
+  background: white;
+  /*background-image: url("/imagenes/Muñeco.png");*/
+  position: relative;
+  left: 30px;
+  top: 20px;
+  right: 30px;
+  vertical-align: middle;
+  height: 400px;
+  width: 90%;
+  border: none;
+  resize: none;
+}
+
+.mensaje-encriptado:focus{
+  outline: none;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  width: 0 50%;
+  margin: 25px;
+  
+}
+
+button{
+  width: 50%;
+}
+
+.boton-encriptar{
+  background: #0A3871;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.boton-desencriptar{
+  background: #F3F5FC;
+  color: #0A3871;
+  padding: 10px 30px;
+  margin: 0 20px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.boton-copiar{
+  background: #0A3871;
+  color: white;
+  border-radius: 15px;
+  margin: 75px 110px 0;
+  padding: 10px 30px;
+}
+
+.div-back{
+  background: white;
+}
+
+p{
+  padding: 0 30px 0;
+}
